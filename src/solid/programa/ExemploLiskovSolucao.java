@@ -1,4 +1,4 @@
-package solid.entidades;
+package solid.programa;
 
 public class ExemploLiskovSolucao {
 
