@@ -10,7 +10,23 @@ public abstract class CriaFormaGeometrica {
 		this.largura = largura;
 	}
 
-	public abstract double calculaArea ();
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+	public double getLargura() {
+		return largura;
+	}
+
+	public void setLargura(double largura) {
+		this.largura = largura;
+	}
+	
+	public abstract double getArea ();
 
 	@Override
 	public int hashCode() {
@@ -38,6 +54,12 @@ public abstract class CriaFormaGeometrica {
 		if (Double.doubleToLongBits(largura) != Double.doubleToLongBits(other.largura))
 			return false;
 		return true;
+	}
+	
+	@Override
+	public String toString() {
+		return "Altura = " + this.getAltura() + " * "
+				+ "Largura = " + this.getLargura() + " = " + Math.round(this.getArea());
 	}
 	
 	
