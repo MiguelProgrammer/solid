@@ -1,7 +1,7 @@
 package solid.programa;
 
-import solid.entidades.Quadrado;
-import solid.entidades.Retangulo;
+import solid.liskov.entidades.Quadrado;
+import solid.liskov.entidades.Retangulo;
 
 public class ExemploLiskovSolucao {
 

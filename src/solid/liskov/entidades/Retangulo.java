@@ -1,8 +1,8 @@
-package solid.entidades;
+package solid.liskov.entidades;
 
-public class Quadrado extends CriaFormaGeometrica {
+public class Retangulo extends CriaFormaGeometrica {
 	
-	public Quadrado(double altura, double largura) {
+	public Retangulo(double altura, double largura) {
 		super(altura, largura);
 	}
 

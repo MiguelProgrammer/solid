@@ -1,4 +1,4 @@
-package solid.entidades;
+package solid.liskov.entidades;
 
 public abstract class CriaFormaGeometrica {
 
